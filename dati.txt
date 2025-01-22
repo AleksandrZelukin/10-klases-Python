@@ -1,0 +1,19 @@
+Aaaa
+Alex
+SS Laa
+AA ZZZZZ
+['Sema', 'Gvadelupa']
+['', '']
+['Alla', 'Francija']
+['AA', 'qwe']
+['', '']
+['qq', 'ww']
+['AA', 'SS']
+['AA', 'SS']
+['AA', 'SS']
+['SS', 'CCC']
+['Aleksandr', 'Sigulda']
+['Aleksandr', 'Sigulda']
+['AA', 'SS']
+['Anna', 'Liepajâ']
+['AA', 'asd']

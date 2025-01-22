@@ -1,0 +1,57 @@
+Kļūdas noteikšana.
+Katrā kļūda - 1 punkts.
+
+#1  - Apļa laukums
+from math import  pi          (1 punkts)
+
+def aplis (r):      
+    return round(r**pi,2)    (1 punkts)
+
+z=int(input('Radius>> '))
+
+print(apla(z))              (1 punkts)
+
+#2 - Kubla tilpums
+def value(a):
+   v = a ** 3                (1 punkts)
+   print(v)
+
+x = int(input("Kubla mala: "))   (1 punkts)
+
+value(x)
+
+#3
+Kārlis noperka M kg ābolu maksājot C centus par kg. 
+Cik centus X ir jāsamaksa par pirkumu? 
+Cik atlikuma centus S viņš dabūs no L eiro?
+
+cena = int(input("cena par kg: "))         (1 punkts)
+nauda = int(input("cik man ir nauda: "))   (1 punkts)
+svars = int(input("Cik pirku abolus: "))   (1 punkts)
+
+kopa = svars * cena
+atlikums = nauda - kopa
+
+print("atlikums: ", atlikums)                     (1 punkts)
+
+a = int(input("kvadrata mala: "))
+print("perimetrs kavadrata ir: ",a*4)  (1 punkts)
+
+
+#4 Saraksti
+saraksts = []                          (1 punkts)
+saraksts.append(12)
+saraksts.append(92)
+saraksts.append(67)
+saraksts.insert(0,"Links")
+print(saraksts)
+saraksts.remove(92)                     (1 punkts)
+print(saraksts)
+
+#5 Vārdnicas
+PhoneBook = {}                          (1 punkts)
+PhoneBook[''Anna''] = '234578'              (1 punkts)
+PhoneBook['Andrejs'] = '4578453'
+PhoneBook['Liva'] = '583749'
+
+print(PhoneBook)
