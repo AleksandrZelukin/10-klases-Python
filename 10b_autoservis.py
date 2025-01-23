@@ -11,7 +11,7 @@ cur.execute("""CREATE TABLE IF NOT EXISTS automobili(
     krasa text)
     """)
 
-cur.execute('DELETE FROM automobili')
+# cur.execute('DELETE FROM automobili')
 # cur.execute('DROP table automobili')
 #Datu bāze aizpildīšana
 #Variānts 1
