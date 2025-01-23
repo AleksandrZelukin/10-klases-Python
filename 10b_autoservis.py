@@ -4,7 +4,7 @@ baze = sqlite3.connect("autoservis.db")
 
 cur = baze.cursor()
 cur.execute("""CREATE TABLE IF NOT EXISTS automobili(
-    ID_auto INT Primary key,
+    ID_auto INTEGER PRIMARY KEY AUTOINCREMENT,
     marka text,
     model text,
     gads text,
@@ -15,7 +15,7 @@ cur.execute("""CREATE TABLE IF NOT EXISTS automobili(
 # cur.execute('DROP table automobili')
 #Datu bāze aizpildīšana
 #Variānts 1
-# cur.execute('INSERT INTO automobili VALUES(6,"Opel","Zafira","1999","Black")')
+# cur.execute('INSERT INTO automobili VALUES(1,"Opel","Zafira","1999","Black")')
 # cur.execute('INSERT INTO automobili VALUES(2,"MAZDA","606","1998","White")')
 # cur.execute('INSERT INTO automobili VALUES(3,"Opel","Corsa","2003","Blue")')
 # cur.execute('INSERT INTO automobili VALUES(4,"BMW","330i","1999","Black")')
