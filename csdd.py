@@ -31,5 +31,6 @@ aut = (a,mar,mod,g,ia)
 
 cur.execute("""INSERT INTO ipasnieks(ID_ipasnieks,vards,talrunis)VALUES(?,?,?)""",ipasn)
 cur.execute("""INSERT INTO auto(ID_auto,marka,model,gads,ID_ipasnieks)VALUES(?,?,?,?,?)""",aut)
+
 con.commit()
 cur.close()
