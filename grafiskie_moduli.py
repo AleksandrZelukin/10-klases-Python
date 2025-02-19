@@ -1,6 +1,6 @@
-import turtle
-
-logs1 = turtle.screen()
+# import turtle
+from turtle import *
+logs1 = Turtle()
 
 logs2 = Turtle()
 logs1.pensize(4)
