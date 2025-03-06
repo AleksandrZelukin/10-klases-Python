@@ -8,8 +8,10 @@ a.geometry("300x150+800+400")
 entry = Entry(font="32")
 entry.pack()
 
-label = Label(font="32")
-label.pack()
+label50 = Label(font="32")
+label50.pack()
+
+
 
 def display():
     label["text"] = entry.get()
