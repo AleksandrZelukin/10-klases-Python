@@ -42,11 +42,30 @@ def clear():
     label2["text"] = entry.get()
     label1["text"] = entry.get()
        
+
+
+# def calculate_coins(amount):
+#     coins = [50, 20, 10, 5, 2, 1]
+#     result = []
+#     for coin in coins:
+#         count = amount // coin
+#         amount -= count * coin
+#         result.append(count)
+#     return result
+
+# def display():
+#     amount = int(entry.get())
+#     counts = calculate_coins(amount)
+#     labels = [label50, label20, label10, label5, label2, label1]
+#     for label, count in zip(labels, counts):
+#         label["text"] = f"{label.cget('text').split(':')[0]}: {count}"
+        
 btn1 = Button(a, text="ievads", command=display)
 btn2 = Button(a, text="notirit", command=clear)
 btn3 = Button(a, text="iziet", command=exit)
 btn1.place(relx=.2, rely=.8)
 btn2.place(relx=.4, rely=.8)
 btn3.place(relx=.6, rely=.8)
+
 
 a.mainloop()
