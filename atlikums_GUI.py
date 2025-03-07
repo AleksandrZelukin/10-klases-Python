@@ -4,12 +4,15 @@ a = Tk()
 a.title("Manas pogas")
 a.geometry("300x300+800+400")
 
-entry = Entry(font="32")
+entry = Entry(font="32",width=3)
 entry.pack()
 label = Label()
 label.pack()
 
 def display():
+    if entry.get() == "":
+        label["text"] = "Nav ievadīta atlikuma summa"
+        return 
     a = int(entry.get())//50
     b = (int(entry.get())-a*50)//20
     c = (int(entry.get())-a*50-b*20)//10
