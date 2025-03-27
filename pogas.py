@@ -14,11 +14,11 @@ label50.pack()
 
 
 def display():
-    label["text"] = entry.get()
+    label50["text"] = entry.get()
 
 def clear():
     entry.delete(0, END)
-    label["text"] = entry.get()
+    label50["text"] = entry.get()
     
     
 btn1 = Button(a, text="ievads", command=display)
