@@ -1,0 +1,27 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250430093208
+Username: RI\azelukins
+RunAs User: RI\azelukins
+Configuration Name: 
+Machine: D11RDA201955 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\azelukins\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 10556
+PSVersion: 5.1.22621.3958
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.3958
+BuildVersion: 10.0.22621.3958
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>try { . "c:\Users\azelukins\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+PS C:\Users\azelukins\GitHub\10-klases-Python> & C:/Users/azelukins/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/azelukins/GitHub/10-klases-Python/funkcija_generators.py
+Pirmdiena
+Otrdiena
+Trešdiena
+Ceturtdiena
+Piektdiena
+Sestdiena
+Svētdiena
