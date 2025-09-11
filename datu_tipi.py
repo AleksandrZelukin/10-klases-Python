@@ -1,0 +1,6 @@
+a = input("Inserisci un numero: ")
+b = str(a)
+c = float(b)
+print(type(a),a)
+print(type(b),b)
+print(type(c),c)
