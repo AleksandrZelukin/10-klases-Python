@@ -1,3 +1,4 @@
+#Pirkuma kalkulators
 summa = int(input("Ievadi summu: "))
 cena = float(input("Ievadi cenu: "))
 daudzums = int(input("Ievadi daudzumu: "))
