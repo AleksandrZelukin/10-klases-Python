@@ -19,17 +19,19 @@ while True:
     speletajs = int(speletajs) - 1
 
     if durvis[speletajs] == "Spoks":
+        print("Tu izvēlējies durvis ar spoku!")
         lives -= 1
         score -= 20
-        print("Tu zaudē dzīvību!", lives, score)
+        print(f"Tu zaudē dzīvību! un tev {lives} dzīvības un {score} punktus")
     elif durvis[speletajs] == "Dzivais ūdens":
+        print("Tu izvēlējies durvis ar dzivo ūdeni!")
         lives += 1
         score += 10
-        print("Apsveicu, tu esi izdzīvojis!", lives, score)
+        print(f"Apsveicu, tu esi izdzīvojis! un tev {lives} dzīvibas un {score} punktus")
     elif durvis[speletajs] == "Nekas":
-        print("Tu uzminēji! Apsveicu, tu esi izdzīvojis!", lives, score)
-
+        print("Tu izvēlējies durvis ar neko!")
+        print(f"Apsveicu, tu esi izdzīvojis! un tev {lives} dzīvibas un {score} punktus")
     # Pārbauda, vai spēle ir beigusies
     if lives == 0 or score < 0:
-        print("Spēle beigusies! Tev ir", lives, "dzīvības un", score, "punkti.")
+        print(f"Spēle beigusies! Tev ir {lives} dzīvības un {score} punkti.")
         break
