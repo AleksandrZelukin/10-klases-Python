@@ -19,5 +19,8 @@ def lat_to_kartosana(text):
 aa = ["Zilonis","rīga","vēlēšanas","māksla","ēka",
       "kāds","kā","sāls","auglis","Sala","sals",
       "māja","darbs","kaposti","krējums","mans"]
-for i in sorted(aa, key=lat_to_kartosana):
+# for i in sorted(aa, key=lat_to_kartosana):
+#     print(i)
+    
+for i in sorted(aa):
     print(i)
