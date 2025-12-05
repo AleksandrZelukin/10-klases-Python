@@ -19,9 +19,9 @@ def izmaksas_kopa(abolu_svars):
     izmaksas_kg = izmaksas_receptei(recepte, cenas) / recepte["aboli"]
     return abolu_svars * izmaksas_kg
 
-aboli = 1.5
-print("Uz {} kg ābolu izmaksas būs {} EUR".format(aboli, izmaksas_kopa(aboli)))
+aboli = izmaksas_kopa(1.5)
+print(f"Uz {aboli} kg ābolu izmaksas būs {izmaksas_kopa} EUR")
 
 aboli = 5
-print("Uz {} kg ābolu izmaksas būs {} EUR".format(aboli, izmaksas_kopa(aboli)))
+# print("Uz {} kg ābolu izmaksas būs {} EUR".format(aboli, izmaksas_kopa(aboli)))
 
