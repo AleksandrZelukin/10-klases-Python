@@ -1,34 +1,67 @@
-# Kontroldarbs programmēšanā (10. klase)
-# Tēma: Funkcijas un saraksti
-# Programmēšanas valoda: Python
-
-# - Uzdevumus pildi patstāvīgi.
-# - Raksti tikai nepieciešamo kodu.
-# - Funkciju nosaukumiem jāsakrīt ar uzdevumā dotajiem.
-# - Atbildes augšupielādē .py failu.
 # ======================================================
 # 1. uzdevums (10 punkti)
 # Izveidot funkciju skaitlu_summa(saraksts), 
 # kas atgriež visu skaitļu summu.
 # Piemērs:
 # saraksts = [3, 7, 2] → rezultāts: 12
+
+saraksts = [6,3,12,8,19]
+
+def skaitlu_summa(saraksts):
+    s = 0
+    for x in saraksts:
+        s = s + x
+    return s
+print(skaitlu_summa(saraksts))
+
 # ======================================================
 # 2. uzdevums (10 punkti)
 # Izveidot funkciju pozitivi_skaitli(saraksts), 
 # kas atgriež tikai pozitīvos skaitļus.
 # Piemērs:
 # saraksts = [-2, 5, 0, 8, -1] → rezultāts: [5, 8]
+def pozitivi_skaitli(saraksts):
+    jauns = []
+    for x in saraksts:
+        if x > 0:
+            jauns.append(x)
+    return jauns
+print(pozitivi_skaitli(saraksts))
 # ======================================================
 # 3. uzdevums (10 punkti)
 # Izveidot funkciju maksimalais(saraksts), neizmantojot max().
+def maksimalais(saraksts):
+    lielakais = saraksts[0]
+    for x in saraksts:
+        if x > lielakais:
+            lielakais = x
+    return lielakais
+
+print(maksimalais(saraksts))
 # ======================================================
 # 4. uzdevums (10 punkti)
 # Ievadīt 5 skaitļus, saglabāt sarakstā un izvadīt summu, 
 # pozitīvos skaitļus un lielāko skaitli.
+skaitli = []
+for i in range(5):
+    sk = int(input('Ievadi skaitli: '))
+    skaitli.append(sk)
+
+print(skaitlu_summa(skaitli))
+print(pozitivi_skaitli(skaitli))
+print(maksimalais(skaitli))
 # ======================================================
 # 5. uzdevums (10 punkti)
 # Izveidot funkciju videjais(saraksts), 
 # kas aprēķina vidējo aritmētisko.
+def videjais(saraksts):
+    summa = 0
+    for x in saraksts:
+        summa = summa + x
+    return summa / len(saraksts)
+
+print(videjais(skaitli))
+# 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Vērtēšanas kritēriji
 # Katram uzdevumam:
