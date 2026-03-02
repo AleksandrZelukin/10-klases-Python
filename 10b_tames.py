@@ -9,6 +9,4 @@ print("Dzivokļa izmeri")
 platums = float(input("Istabas platums:"))
 garums = float(input("Istabas garums:"))
 augstums = float(input("istabas augstums:"))
-
-
             
