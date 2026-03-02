@@ -30,7 +30,7 @@ def s():
 btn1 = Button(text="parādīt aprēķina rezultātu",command=s)
 btn1.pack()
 
-trap = PhotoImage(file='trijsturis.gif')
-izo = Label(image=trap)
-izo.pack()
+# trap = PhotoImage(file='trijsturis.gif')
+# izo = Label(image=trap)
+# izo.pack()
 win.mainloop()
