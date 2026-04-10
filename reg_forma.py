@@ -71,7 +71,8 @@ entry6 = Entry(width=25)
 entry6.place(relx=0.25, rely=0.52)
 
 # ---------- buttons ----------
-Button(text="Saglabāt datus", width=20, command=registracija).place(relx=0.25, rely=0.62)
-Button(text="Notīrīt laukus", width=20, command=notirit).place(relx=0.25, rely=0.7)
+Button(text="Saglabāt datus", bg="lightgreen", width=20, command=registracija).place(relx=0.25, rely=0.62)
+Button(text="Notīrīt laukus", bg="lightcoral", width=20, command=notirit).place(relx=0.25, rely=0.7)
+Button(text="Aizvērt logu", bg="lightgray", width=20, command=logs.destroy).place(relx=0.25, rely=0.78)
 
 logs.mainloop()
